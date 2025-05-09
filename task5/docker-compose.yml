@@ -16,8 +16,6 @@ services:
     image: soft-pinko-front-end:task5
     ports:
       - "9000"
-    depends_on:
-      - back-end
   
   proxy:
     build:
@@ -26,6 +24,9 @@ services:
     image: soft-pinko-proxy:task5
     ports:
       - "80:80"
+    depends_on:
+      - back-end
+      - front-end
 
 networks:
   default:
