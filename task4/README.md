@@ -1,2 +1,2 @@
-# Task2 - Front-end
-This task expands on the previous by dividing the app into back-end and front-end.  We also create the Dockerfile for the front-end.  The front end will include an `Nginx` server.
+# Task4 - Docker Compose
+In this task we crate a [docker-compose.yml](./docker-compose.yml) file in order to simplify the way we create the apps containers.  This allows us to create instances of the app's dependancies in their own containers and manage them all through the `docker-compose` commands.
