@@ -1,2 +1,2 @@
-# Task2 - Front-end
-This task expands on the previous by dividing the app into back-end and front-end.  We also create the Dockerfile for the front-end.  The front end will include an `Nginx` server.
+# Task5 - Proxy server
+This tasks consists of creating a [proxy server](./proxy/) image.  The client will comunicate exclusively with the proxy server.  This streamlines our aplication because the client only needs to comunicate with the app in one location (the proxy) and leave the rest to the application.
